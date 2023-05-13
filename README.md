@@ -1,1 +1,1 @@
-# Suwayomi Website
+# IReader Website

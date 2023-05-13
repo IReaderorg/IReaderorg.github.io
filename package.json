@@ -6,12 +6,12 @@
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Suwayomi/website.git"
+		"url": "git+https://github.com/IReader/kazemcodes.github.io.git"
 	},
 	"bugs": {
-		"url": "https://github.com/Suwayomi/website/issues"
+		"url": "https://github.com/IReader/kazemcodes.github.io/issues"
 	},
-	"homepage": "https://github.com/Suwayomi/website",
+	"homepage": "https://github.com/IReader/kazemcodes.github.io",
 	"scripts": {
 		"dev": "vuepress dev src",
 		"build": "npm run lint && vuepress build src",
