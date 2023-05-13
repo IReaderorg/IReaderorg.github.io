@@ -127,11 +127,11 @@ export default {
 						height 3rem
 						width 100%
 			.card
-				background-color white
+				background-color $backgroundColor
 				border-bottom 1px solid transparent
 				border-radius 6px
-				box-shadow 0 0 30px #b1aeae52
-				color $accentColor
+				box-shadow 0 0 15px $accentColor
+				color $textColor
 				height 100%
 				overflow hidden
 				padding 0.5rem
@@ -145,7 +145,7 @@ export default {
 					.material-design-icon
 						display contents
 						font-size 2.5em
-						color $accentColorSecondary
+						color $textColor
 					.material-design-icon > .material-design-icon__svg
 						position relative
 					> span

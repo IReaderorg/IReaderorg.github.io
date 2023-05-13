@@ -191,10 +191,8 @@ export default {
 				right 0
 			&--light
 				animation fade 2s ease-in-out 2s infinite alternate
-				box-shadow 0 10px 50px 0px #ddd
 			&--dark
 				position absolute
-				box-shadow 0 10px 50px 0px #ddd
 
 @keyframes fade
 	0%
