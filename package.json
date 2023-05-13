@@ -1,0 +1,44 @@
+{
+	"name": "IReader",
+	"version": "1.0.0",
+	"description": "Official website for IReader projects",
+	"license": "MPL-2.0",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Suwayomi/website.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Suwayomi/website/issues"
+	},
+	"homepage": "https://github.com/Suwayomi/website",
+	"scripts": {
+		"dev": "vuepress dev src",
+		"build": "npm run lint && vuepress build src",
+		"lint": "eslint --fix 'src' --no-ignore"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.19.1",
+		"eslint": "8.31.0",
+		"eslint-config-vuepress": "3.10.0",
+		"eslint-plugin-markdownlint": "^0.4.0",
+		"eslint-plugin-promise": "6.1.1",
+		"eslint-plugin-vue": "9.8.0",
+		"prettier": "2.8.1",
+		"vuepress": "^1.9.8",
+		"vuepress-plugin-element-ui": "1.1.0",
+		"webpack": "4.46.0"
+	},
+	"dependencies": {
+		"axios": "0.26.1",
+		"core-js": "2.6.12",
+		"docsearch.js": "2.6.3",
+		"element-ui": "2.15.12",
+		"marked": "^5.0.2",
+		"moment": "2.29.4",
+		"vue": "2.7.14",
+		"vue-material-design-icons": "5.1.2",
+		"vue-moment": "4.1.0",
+		"vuex": "3.6.2"
+	}
+}
